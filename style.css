@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+
+header{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #D2A295 23.96%, #BFD1D9 100%);
+    
+}
+
+.cabecalho {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+body {
+    font-family: 'Rufina', serif;
+    background-color:  #BFD1D9;
+
+}
+
+
+
+.h1-title {
+    font-size: 50px;
+    color: #F7F7F7;
+}
+
+
+.h2-title {
+    font-size: 32px;
+    color: #9D7F7F;
+    text-align: center;
+    width: 800px;
+       
+}
+
+/* FIM HEADER */
+
+
+.title-main {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    
+}
+
+p {
+    width: 350px;
+}
+
+.corpo-saud{
+    display: flex;
+    width: 150px;
+    
+
+}
+
+.img-saud{
+    background-color: #fff;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
